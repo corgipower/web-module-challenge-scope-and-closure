@@ -42,6 +42,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+    Closure is a function plus any data that's within the scope of that function
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +64,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+    In the return function, because it accesses the parameter of the outer function.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+    The name is always the same, the value of newRoll can change
 c. What is the lexical scope of `newRoll`? 
+    The return function and the outer function and anything global preceding it
 
 ### Task 3 - Stretch Goals
 
@@ -91,6 +95,7 @@ addSix(21); // returns 27
 ```
 
 3. Research the differences between functional programming and object oriented programming. Then, describe the pros and cons of functional programming vs object-oriented programming. This is a common interview question and great practice!
+  I looked this up but it's all kinda gibberish to me.
 
 ## Resources
 
